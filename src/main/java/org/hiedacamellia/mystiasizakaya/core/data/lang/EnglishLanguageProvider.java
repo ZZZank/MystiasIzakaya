@@ -51,6 +51,12 @@ public class EnglishLanguageProvider extends LanguageProvider {
         add("message.mystias_izakaya.menu.beverage","Beverage %s has added to menu %d");
 
 
+        add("network.mystiasizakaya.ledger.success","Opening success!");
+        add("network.mystiasizakaya.ledger.failed","Failed to open, please check the following:");
+        add("network.mystiasizakaya.ledger.failed.table","Table not bound");
+        add("network.mystiasizakaya.ledger.failed.cuisines","No cuisine in the menu");
+        add("network.mystiasizakaya.ledger.failed.beverages","No beverage in the menu");
+
         add("gui.mystias_izakaya.cooking_range_ui.button_back", "<");
         add("gui.mystias_izakaya.cooking_range_ui.button_next", ">");
         add("network.mystiasizakaya.failed", "Failed to handle network data: %s");

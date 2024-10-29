@@ -13,6 +13,8 @@ import net.minecraft.world.level.Level;
 import org.hiedacamellia.mystiasizakaya.content.common.inventory.LedgerUiMenu;
 import org.hiedacamellia.mystiasizakaya.core.debug.Debug;
 import org.hiedacamellia.mystiasizakaya.core.event.MIPlayerEvent;
+import org.hiedacamellia.mystiasizakaya.core.network.MINetWork;
+import org.hiedacamellia.mystiasizakaya.core.network.OpenMessage;
 
 import java.util.HashMap;
 import java.util.List;
@@ -108,7 +110,7 @@ public class LedgerUiScreen extends AbstractContainerScreen<LedgerUiMenu> {
 
 
         Button on_open = new Button.Builder(getComponent(),e ->{
-            MIPlayerEvent.setOnOpen(entity,!MIPlayerEvent.getOnOpen(entity));
+            MINetWork.PACKET_HANDLER.sendToServer(new OpenMessage(!MIPlayerEvent.getOnOpen(entity)));
             e.setMessage(getComponent());
         }).pos(this.leftPos+10,this.topPos+10).size(40,20).build();
         on_open.setTooltip(Tooltip.create(Component.translatable("gui.mystias_izakaya.ledger_ui.on_open")));
