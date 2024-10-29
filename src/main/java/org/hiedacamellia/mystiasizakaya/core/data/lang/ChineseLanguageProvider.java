@@ -49,6 +49,11 @@ public class ChineseLanguageProvider extends LanguageProvider {
         add("message.mystias_izakaya.menu.cuisine","菜品 %s 已添加到菜单 %d");
         add("message.mystias_izakaya.menu.beverage","酒水 %s 已添加到菜单 %d");
 
+        add("network.mystiasizakaya.ledger.success","开业成功！");
+        add("network.mystiasizakaya.ledger.failed","无法开业，请检查以下内容：");
+        add("network.mystiasizakaya.ledger.failed.table","餐桌未绑定");
+        add("network.mystiasizakaya.ledger.failed.cuisines","菜单中没有料理");
+        add("network.mystiasizakaya.ledger.failed.beverages","菜单中没有酒水");
 
         add("network.mystiasizakaya.failed", "无法处理网络数据: %s");
         add("block.mystias_izakaya.donation", "赛钱箱");

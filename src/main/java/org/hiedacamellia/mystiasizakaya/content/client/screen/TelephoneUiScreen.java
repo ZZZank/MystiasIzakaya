@@ -170,6 +170,7 @@ public class TelephoneUiScreen extends AbstractContainerScreen<TelephoneUiMenu> 
             //Debug.send(out.toString());
             out.clear();
             refreshOut();
+            entity.closeContainer();
         }).pos(leftPos + 10, topPos + 15 + 20 * 5).size(54, 20)
                 .tooltip(Tooltip.create(Component.translatable("gui.mystias_izakaya.telephone_ui.confirm.desc"))).build();
 

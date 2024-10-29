@@ -72,8 +72,8 @@ public class MIPayload {
                 MIOnOpen.TYPE,
                 MIOnOpen.STREAM_CODEC,
                 new DirectionalPayloadHandler<>(
-                        MIOnOpen::handleData,
-                        MIOnOpen::handleData
+                        MIOnOpen::handleClient,
+                        MIOnOpen::handleServer
                 )
         );
 
