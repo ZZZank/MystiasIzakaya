@@ -2,7 +2,7 @@
   "type": "mystias_izakaya:grill_type",
   "ingredients": [
     {
-      "item": "mystias_izakaya:ba_mu_man"
+      "tag": "recipez:raw_lamprey"
     },
     {
       "tag": "mystias_izakaya:ingredients"

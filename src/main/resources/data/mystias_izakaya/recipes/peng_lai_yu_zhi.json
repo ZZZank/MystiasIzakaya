@@ -11,10 +11,10 @@
       "item": "mystias_izakaya:zhu_rou"
     },
     {
-      "item": "mystias_izakaya:lu_rou"
+      "tag": "recipez:venison"
     },
     {
-      "item": "mystias_izakaya:zhu_zi"
+      "tag": "recipez:bamboo"
     }
   ],
   "output": {

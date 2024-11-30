@@ -2,10 +2,10 @@
   "type": "mystias_izakaya:streamer_type",
   "ingredients": [
     {
-      "item": "mystias_izakaya:lu_rou"
+      "tag": "recipez:venison"
     },
     {
-      "item": "mystias_izakaya:song_zi"
+      "tag": "recipez:pine_nuts"
     },
     {
       "item": "mystias_izakaya:bai_guo"
