@@ -2,10 +2,10 @@
   "type": "mystias_izakaya:streamer_type",
   "ingredients": [
     {
-      "tag": "recipez:cocoa_beans"
+      "tag": "mystias_izakaya:cocoa_beans"
     },
     {
-      "tag": "recipez:cream"
+      "tag": "mystias_izakaya:cream"
     },
     {
       "tag": "forge:flour"

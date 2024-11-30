@@ -2,7 +2,7 @@
   "type": "mystias_izakaya:boiling_pot_type",
   "ingredients": [
     {
-      "tag": "recipez:raw_lamprey"
+      "tag": "mystias_izakaya:raw_lamprey"
     },
     {
       "item": "mystias_izakaya:dou_fu"
@@ -11,7 +11,7 @@
       "tag": "forge:crabs"
     },
     {
-      "tag": "recipez:bamboo"
+      "tag": "mystias_izakaya:bamboo"
     },
     {
       "item": "mystias_izakaya:lu_shui"

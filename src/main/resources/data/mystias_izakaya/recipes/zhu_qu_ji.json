@@ -2,7 +2,7 @@
   "type": "mystias_izakaya:streamer_type",
   "ingredients": [
     {
-      "tag": "recipez:bamboo"
+      "tag": "mystias_izakaya:bamboo"
     },
     {
       "item": "mystias_izakaya:zhu_sun"

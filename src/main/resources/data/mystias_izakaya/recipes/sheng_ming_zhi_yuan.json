@@ -2,7 +2,7 @@
   "type": "mystias_izakaya:streamer_type",
   "ingredients": [
     {
-      "tag": "recipez:cocoa_beans"
+      "tag": "mystias_izakaya:cocoa_beans"
     },
     {
       "item": "mystias_izakaya:yin_er"

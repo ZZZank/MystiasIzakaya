@@ -2,7 +2,7 @@
   "type": "mystias_izakaya:frying_pan_type",
   "ingredients": [
     {
-      "tag": "recipez:redbean"
+      "tag": "mystias_izakaya:redbean"
     },
     {
       "tag": "forge:eggs"

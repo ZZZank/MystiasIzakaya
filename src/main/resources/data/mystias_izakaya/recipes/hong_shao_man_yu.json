@@ -2,7 +2,7 @@
   "type": "mystias_izakaya:frying_pan_type",
   "ingredients": [
     {
-      "tag": "recipez:raw_lamprey"
+      "tag": "mystias_izakaya:raw_lamprey"
     },
     {
       "tag": "forge:crops/onion"
